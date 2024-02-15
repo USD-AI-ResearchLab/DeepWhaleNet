@@ -1,4 +1,5 @@
 # antBlueFinThesis
+## Author: Nicholas Ryan Rasmussen - University of South Dakota - Computer Science Department - 2AI Lab
 
 
 ## Installation
