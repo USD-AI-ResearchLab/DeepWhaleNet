@@ -1,6 +1,7 @@
 # antBlueFinThesis
 ## Author: Nicholas Ryan Rasmussen - University of South Dakota - Computer Science Department - 2AI Lab
 
+This code was designed for the IWC-SORP/SOOS Acoustic Trends Annotated Library downloaded as of 1-30-23
 
 ## Installation
 
