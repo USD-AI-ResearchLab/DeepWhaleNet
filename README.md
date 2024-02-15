@@ -13,6 +13,7 @@ http://data.aad.gov.au/metadata/records/AcousticTrends_BlueFinLibrary
 
 ```bash
 git clone https://github.com/Nickr234/antBlueFinThesis.git
+```
 
 3. **Navigate to the project directory**:
 
