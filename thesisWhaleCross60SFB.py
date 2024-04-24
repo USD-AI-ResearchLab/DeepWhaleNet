@@ -437,7 +437,7 @@ if __name__ == "__main__":
         ms_DB = ms_DB - 20
         ms_DB = ms_DB/ms_DB.max()
         ms_DB = ms_DB[1:,1:]
-        ms_DB = np.reshape(ms_DB,(64,512,1))
+        ms_DB = np.reshape(ms_DB,(128,256,1))
     
         count+=1
     

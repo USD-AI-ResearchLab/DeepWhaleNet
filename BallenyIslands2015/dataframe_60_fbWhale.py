@@ -69,9 +69,6 @@ labeler(data,pddf,ss,hop,0)
 
 data = pd.read_csv('./Balleny2015.BmD.selections.txt', sep = '\t')
 labeler(data,pddf,ss,hop,0)
-       
-
-
 
 data = pd.read_csv('./Balleny2015.Bp20Hz.selections.txt', sep = '\t')
 labeler(data,pddf,ss,hop,1)
@@ -81,27 +78,6 @@ labeler(data,pddf,ss,hop,1)
 
 data = pd.read_csv('./Balleny2015.BpDwnswp.selections.txt', sep = '\t')
 labeler(data,pddf,ss,hop,1)
-
-'''
- 
-data = pd.read_csv('./Balleny2015.humpback.selections.txt', sep = '\t')
-data2 = pd.read_csv('./Balleny2015.minke.selections.txt', sep = '\t')
-data3 = pd.read_csv('./Balleny2015.unid.selections.txt', sep = '\t')
-#data4 = pd.read_csv('./Balleny2015.BpHigherCall.selections.txt', sep = '\t')
-
-
-
-data = pd.concat([data,data2,data3])
-
-labeler(data,pddf,ss,hop,7)
-
-
-
-for chunk in pddf.itertuples():
-    if chunk.label[0]==0 and chunk.label[1]==0 and chunk.label[2]==0 and chunk.label[3]==0 and chunk.label[4]==0 and chunk.label[5]==0 and chunk.label[6]==0 and chunk.label[7]==0 and chunk.label[8]==0: 
-        chunk.label[8] = 1
-
-'''
 
 pd.set_option('display.max_rows', pddf.shape[0]+1)
 print(pddf.label)
