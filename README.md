@@ -54,4 +54,4 @@ python runAll.py  # Replace with your main script
 
 
 
-![./thesisFirstPage.png](./thesis_BlueFinWhaleP.pdf "Pub PDF") linked to [IJPRAI](./thesis_BlueFinWhaleP.pdf).
+[![Example Image](./thesisFirstPage.png)](./thesis_BlueFinWhaleP.pdf)
