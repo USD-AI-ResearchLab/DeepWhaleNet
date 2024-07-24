@@ -50,8 +50,8 @@ pip install -r requirements.txt
 python runAll.py  # Replace with your main script
 ```
 
-!Page One of IJPRAI Publication
 
-./thesisFirstPage.png
 
-![Page One of IJPRAI Publication](./thesisFirstPage.png "Pub PDF") linked to [IJPRAI](./thesis_BlueFinWhaleP.pdf).
+
+
+![./thesisFirstPage.png](./thesis_BlueFinWhaleP.pdf "Pub PDF") linked to [IJPRAI](./thesis_BlueFinWhaleP.pdf).
