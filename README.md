@@ -14,21 +14,21 @@ http://data.aad.gov.au/metadata/records/AcousticTrends_BlueFinLibrary
 2. **Clone the repository**:
 
 ```bash
-git clone https://github.com/Nickr234/antBlueFinThesis.git
+git clone https://github.com/2ai-lab/DeepWhaleNet.git
 ```
 
 3. **Navigate to the project directory**:
 
 ```bash
-cd antBlueFinThesis
+cd DeepWhaleNet
 ```
 
 4. **Move Annotated Library into new Repository**:
 
 ```bash
-cp -R /path/to/AcousticTrends_BlueFinLibrary/* /path/to/antBlueFinThesis/ ## Linux
+cp -R /path/to/AcousticTrends_BlueFinLibrary/* /path/to/DeepWhaleNet/ ## Linux
 
-xcopy /E /I C:\path\to\AcousticTrends_BlueFinLibrary\* C:\path\to\antBlueFinThesis\  ## Windows
+xcopy /E /I C:\path\to\AcousticTrends_BlueFinLibrary\* C:\path\to\DeepWhaleNet\  ## Windows
 ```
 
 5. **Set up a virtual environment** (optional but recommended):
